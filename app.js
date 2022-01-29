@@ -115,7 +115,7 @@ showAllBtn.addEventListener('click', function () {
 // Showing different number of projects in different size of devices
 function showProjects(project) {
     if (bodyWidth < 741 && state == 'less') {
-        for (; i < 5; i++) {
+        for (; i < 6; i++) {
             projectCreation(project[i]);
         }
     }

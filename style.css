@@ -28,6 +28,7 @@
   --js: #ffdd24;
   --cpp: #00ab45;
   --flutter: #00c7fa;
+  --sass:#CD6799;
   --git: #272b34;
   --body-color: white;
   --btn-shadow: #ececec;
@@ -733,9 +734,23 @@ main {
   border-radius: 10px;
 }
 
+.skillPercentageNodejs {
+  width: 30%;
+  background-color: var(--cpp);
+  height: 10px;
+  border-radius: 10px;
+}
+
 .skillPercentageFlutter {
-  width: 65%;
+  width: 50%;
   background-color: var(--flutter);
+  height: 10px;
+  border-radius: 10px;
+}
+
+.skillPercentageSASS {
+  width: 50%;
+  background-color: var(--sass);
   height: 10px;
   border-radius: 10px;
 }
