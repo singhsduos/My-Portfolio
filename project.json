@@ -1,5 +1,32 @@
 [
   {
+    "id": 19,
+    "name": "X Bill",
+    "image": "https://user-images.githubusercontent.com/32032008/200279876-e389aeaa-8b69-4115-a701-c471dfdab27e.png",
+    "links": {
+      "view": "https://xbill.vercel.app/",
+      "code": "https://github.com/singhsduos/X-Bill"
+    }
+  },
+  {
+    "id": 18,
+    "name": "HexaShare",
+    "image": "https://user-images.githubusercontent.com/32032008/200281389-499412bd-2fd3-41cc-b09c-19e07bdf8665.png",
+    "links": {
+      "view": "https://hexashare.vercel.app/",
+      "code": "https://github.com/singhsduos/hexa-share"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Lovely Shelter",
+    "image": "https://user-images.githubusercontent.com/32032008/200282604-daeaec50-1c9b-4ea4-a9fc-e3b06878ab00.png",
+    "links": {
+      "view": "https://lovelyshelter.onrender.com/",
+      "code": "https://github.com/singhsduos/hexa-share"
+    }
+  },
+  {
     "id": 16,
     "name": "Netflix-Clone",
     "image": "https://user-images.githubusercontent.com/32032008/151658135-ffd4d149-8a55-49cd-ad85-7e7d5eee856c.png",
