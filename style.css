@@ -23,13 +23,16 @@
   --blueFont: #9a9ae1;
   --whiteFont: rgb(255, 255, 255);
   --white-shade: #fff;
-  --html: #ff5024;
-  --css: #1a72ba;
-  --js: #ffdd24;
-  --cpp: #00ab45;
-  --flutter: #00c7fa;
-  --sass:#CD6799;
-  --git: #272b34;
+  --html: #e44d26;
+  --css: #2965f1;
+  --js: #f7df1e;
+  --react: #61dafb;
+  --redux: #764abc;
+  --node: #68a063;
+  --db: #4db33d;
+  --git: #f05033;
+  --typescript: #3178c6;
+  --microservices: #00adb5;
   --body-color: white;
   --btn-shadow: #ececec;
   --btn-angleShadow: rgb(241, 241, 241);
@@ -371,10 +374,10 @@ main {
 }
 
 .blobImg {
-  height: 18.75rem;
+  height: 29.75rem;
   width: 25rem;
-  x: 7%;
-  y: 26%;
+  x: 5%;
+  y: 10%;
   display: inline-block;
 }
 
@@ -706,60 +709,62 @@ main {
   margin-top: 4px;
 }
 
+.skillBar div {
+  height: 10px;
+  border-radius: 10px;
+  transition: width 1.5s ease-in-out, background-color 0.5s ease;
+}
+
+/* Individual skill progress bars */
+
 .skillPercentageHTML {
   width: 90%;
   background-color: var(--html);
-  height: 10px;
-  border-radius: 10px;
 }
 
 .skillPercentageCSS {
-  width: 80%;
+  width: 85%;
   background-color: var(--css);
-  height: 10px;
-  border-radius: 10px;
 }
 
 .skillPercentageJS {
-  width: 65%;
+  width: 80%;
   background-color: var(--js);
-  height: 10px;
-  border-radius: 10px;
 }
 
-.skillPercentageCPP {
+.skillPercentageReact {
+  width: 85%;
+  background-color: var(--react);
+}
+
+.skillPercentageRedux {
+  width: 75%;
+  background-color: var(--redux);
+}
+
+.skillPercentageNode {
+  width: 80%;
+  background-color: var(--node);
+}
+
+.skillPercentageDB {
   width: 70%;
-  background-color: var(--cpp);
-  height: 10px;
-  border-radius: 10px;
-}
-
-.skillPercentageNodejs {
-  width: 30%;
-  background-color: var(--cpp);
-  height: 10px;
-  border-radius: 10px;
-}
-
-.skillPercentageFlutter {
-  width: 50%;
-  background-color: var(--flutter);
-  height: 10px;
-  border-radius: 10px;
-}
-
-.skillPercentageSASS {
-  width: 50%;
-  background-color: var(--sass);
-  height: 10px;
-  border-radius: 10px;
+  background-color: var(--db);
 }
 
 .skillPercentageGit {
-  width: 75%;
+  width: 80%;
   background-color: var(--git);
-  height: 10px;
-  border-radius: 10px;
+}
+
+.skillPercentageTools {
+  width: 75%;
+  background-color: var(--typescript);
+}
+
+.skillPercentageMicroservices {
+  width: 70%;
+  background-color: var(--microservices);
 }
 
 #flutterIcon {
@@ -1610,9 +1615,9 @@ textarea {
     width: 115%;
   }
   .blobImg {
-    height: 18.75rem;
-    width: 23rem;
-    x: 12%;
+    height: 28.75rem;
+    width: 21rem;
+    x: 9%;
   }
   .scrollDownBtn {
     display: none;
