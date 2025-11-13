@@ -1553,7 +1553,7 @@ textarea {
 
 */
   main {
-    width: 95%;
+    /* width: 95%; */
     margin: 0rem auto;
   }
   .homeSection {
@@ -1623,6 +1623,10 @@ textarea {
     display: none;
     margin-top: 3rem;
     margin-left: 0.7rem;
+  }
+  .contactMeBtn {
+    display: inline-block;
+    width: 115% !important;
   }
   /*
  ______________________________________________
