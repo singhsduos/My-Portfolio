@@ -626,7 +626,7 @@ main {
   -ms-flex-direction: column;
   flex-direction: column;
   height: 100vh;
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .skillHeadingDiv {
@@ -1633,7 +1633,7 @@ textarea {
 
 */
   .aboutSection {
-    height: 100vh;
+    height: 182vh;
     margin: auto;
     margin-top: 5rem;
   }
