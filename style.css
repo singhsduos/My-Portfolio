@@ -1518,8 +1518,8 @@ textarea {
   .navMenuList {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-bottom: 1rem;
   }
